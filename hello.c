@@ -1,6 +1,8 @@
 #include<stdio.h>
 
 int main(void)
+
 {
-    printf("hello world!");
+ String s = get_string("what is your name ");
+    printf("hello %s", s);
 }
